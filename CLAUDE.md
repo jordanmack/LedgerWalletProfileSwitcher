@@ -8,7 +8,7 @@ Ledger Live Profile Switcher is a PowerShell script for Windows that manages mul
 
 ## Repository Structure
 
-- **LedgerLiveProfile.ps1**: Main PowerShell script that handles profile switching and Ledger Live launching.
+- **LedgerWalletProfile.ps1**: Main PowerShell script that handles profile switching and Ledger Live launching.
 - **README.md**: User-facing documentation with installation, usage, and troubleshooting information.
 - **screenshot-1.png**: Screenshot of the profile selection interface used in README.
 - **LICENSE**: MIT license.
@@ -24,7 +24,7 @@ The script operates by:
 
 ## Key Components
 
-### LedgerLiveProfile.ps1
+### LedgerWalletProfile.ps1
 
 Single-file PowerShell script with these sections:
 - **Settings block (lines 9-14)**: Configurable paths and timeout settings.
@@ -37,7 +37,7 @@ Single-file PowerShell script with these sections:
 
 To test the script manually:
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File "LedgerLiveProfile.ps1"
+powershell.exe -ExecutionPolicy Bypass -File "LedgerWalletProfile.ps1"
 ```
 
 The script requires:

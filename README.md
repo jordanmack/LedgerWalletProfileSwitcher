@@ -41,10 +41,10 @@ Each profile stores its own accounts, history, and settings independently.
 
 ## Installation and Setup
 
-1. **Download the script**  
-   Save `LedgerLiveProfile.ps1` somewhere stable, e.g.:  
+1. **Download the script**
+   Save `LedgerWalletProfile.ps1` somewhere stable, e.g.:
    ```
-   C:\Users\<YourName>\Documents\LedgerLiveProfile.ps1
+   C:\Users\<YourName>\Documents\LedgerWalletProfile.ps1
    ```
 
 2. **Create your profile folders**  
@@ -82,7 +82,7 @@ Each profile stores its own accounts, history, and settings independently.
 ### Launch via PowerShell
 Run:
 ```powershell
-& "C:\Users\<YourName>\Documents\LedgerLiveProfile.ps1"
+& "C:\Users\<YourName>\Documents\LedgerWalletProfile.ps1"
 ```
 
 You'll see a list of profiles like:
@@ -111,7 +111,7 @@ To create a desktop or Start Menu shortcut:
 1. Right-click on Desktop or in a folder → **New → Shortcut**.
 2. Enter this as the location:
    ```
-   powershell.exe -ExecutionPolicy Bypass -File "C:\Users\<YourName>\Documents\LedgerLiveProfile.ps1"
+   powershell.exe -ExecutionPolicy Bypass -File "C:\Users\<YourName>\Documents\LedgerWalletProfile.ps1"
    ```
    (Replace `<YourName>` and adjust the path to where you saved the script.)
 3. Click **Next**, name it `Ledger Live Profile Switcher`.
